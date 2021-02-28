@@ -7,7 +7,7 @@ app = Flask(__name__)
 f = open("carModel.pkl","rb")
 model = joblib.load(f)
 
-@app.route('/')
+@app.route('/', methods=['GET'])
 def welcome():
     return 'Welcome to the EstiMotor API! 🎉'
 
