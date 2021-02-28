@@ -1,5 +1,5 @@
-aniso8601==9.0.0
-argcomplete==1.12.2
+aniso8601
+argcomplete
 boto3==1.17.17
 botocore==1.20.17
 certifi==2020.12.5
@@ -17,7 +17,7 @@ jmespath==0.10.0
 joblib==1.0.1
 kappa==0.6.0
 MarkupSafe==1.1.1
-numpy==1.20.1
+numpy
 pip-tools==5.5.0
 placebo==0.9.0
 python-dateutil==2.8.1
